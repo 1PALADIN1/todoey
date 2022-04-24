@@ -17,7 +17,7 @@ struct DataModelManager<T: Object> {
                 realm.add(item)
             })
         } catch {
-            print("Error creating: \(error.localizedDescription)")
+            fatalError("Error creating: \(error.localizedDescription)")
         }
     }
     
@@ -34,7 +34,7 @@ struct DataModelManager<T: Object> {
                 realm.delete(item)
             })
         } catch {
-            print("Error removing: \(error.localizedDescription)")
+            fatalError("Error removing: \(error.localizedDescription)")
         }
     }
     
@@ -44,7 +44,7 @@ struct DataModelManager<T: Object> {
                 context()
             }
         } catch {
-            print("Error updating: \(error.localizedDescription)")
+            fatalError("Error updating: \(error.localizedDescription)")
         }
     }
     

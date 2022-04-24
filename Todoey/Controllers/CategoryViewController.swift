@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  CategoryViewController.swift
 //  Todoey
 //
-//  Created by Ruslan Malinovsky on 22.04.2022.
+//  Created by Ruslan Malinovsky on 24.04.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CategoryViewController: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
 }
-
