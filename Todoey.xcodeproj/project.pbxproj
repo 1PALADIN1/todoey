@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49453E8B28159A0F004ECD29 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49453E8A28159A0F004ECD29 /* K.swift */; };
 		499FF3D82812B22E00464DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499FF3D72812B22E00464DE6 /* AppDelegate.swift */; };
 		499FF3DA2812B22E00464DE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499FF3D92812B22E00464DE6 /* SceneDelegate.swift */; };
 		499FF3DC2812B22E00464DE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499FF3DB2812B22E00464DE6 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49453E8A28159A0F004ECD29 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		499FF3D42812B22E00464DE6 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499FF3D72812B22E00464DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		499FF3D92812B22E00464DE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				C560B2F53A00C8812C733F85 /* Pods-Todoey.debug.xcconfig */,
 				8F425E5C366BD0921B468EED /* Pods-Todoey.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,6 +76,7 @@
 			children = (
 				499FF3D72812B22E00464DE6 /* AppDelegate.swift */,
 				499FF3D92812B22E00464DE6 /* SceneDelegate.swift */,
+				49453E8A28159A0F004ECD29 /* K.swift */,
 				499FF3EB2812B26800464DE6 /* Views */,
 				499FF3EC2812B27B00464DE6 /* Controllers */,
 				499FF3E02812B22F00464DE6 /* Assets.xcassets */,
@@ -224,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499FF3DC2812B22E00464DE6 /* ViewController.swift in Sources */,
+				49453E8B28159A0F004ECD29 /* K.swift in Sources */,
 				499FF3D82812B22E00464DE6 /* AppDelegate.swift in Sources */,
 				499FF3DA2812B22E00464DE6 /* SceneDelegate.swift in Sources */,
 			);
