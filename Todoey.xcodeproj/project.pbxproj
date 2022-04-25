@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494312C02817121C0061E9C5 /* add_category.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494312BF2817121C0061E9C5 /* add_category.gif */; };
+		494312C52817156C0061E9C5 /* add_task.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494312C12817156B0061E9C5 /* add_task.gif */; };
+		494312C62817156C0061E9C5 /* search_task.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494312C22817156C0061E9C5 /* search_task.gif */; };
+		494312C72817156C0061E9C5 /* delete_task.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494312C32817156C0061E9C5 /* delete_task.gif */; };
+		494312C82817156C0061E9C5 /* complete_task.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494312C42817156C0061E9C5 /* complete_task.gif */; };
 		49453E8B28159A0F004ECD29 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49453E8A28159A0F004ECD29 /* K.swift */; };
 		49453E8F28159B80004ECD29 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49453E8E28159B80004ECD29 /* Item.swift */; };
 		49453E9228159BB5004ECD29 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49453E9128159BB5004ECD29 /* Category.swift */; };
@@ -25,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494312BE28170EDE0061E9C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		494312BF2817121C0061E9C5 /* add_category.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = add_category.gif; sourceTree = "<group>"; };
+		494312C12817156B0061E9C5 /* add_task.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = add_task.gif; sourceTree = "<group>"; };
+		494312C22817156C0061E9C5 /* search_task.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = search_task.gif; sourceTree = "<group>"; };
+		494312C32817156C0061E9C5 /* delete_task.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = delete_task.gif; sourceTree = "<group>"; };
+		494312C42817156C0061E9C5 /* complete_task.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = complete_task.gif; sourceTree = "<group>"; };
 		49453E8A28159A0F004ECD29 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		49453E8E28159B80004ECD29 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		49453E9128159BB5004ECD29 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -67,6 +78,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		494312BD28170EA60061E9C5 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				494312C12817156B0061E9C5 /* add_task.gif */,
+				494312C42817156C0061E9C5 /* complete_task.gif */,
+				494312C32817156C0061E9C5 /* delete_task.gif */,
+				494312C22817156C0061E9C5 /* search_task.gif */,
+				494312BF2817121C0061E9C5 /* add_category.gif */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 		49453E8C28159B67004ECD29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +121,8 @@
 		499FF3CB2812B22E00464DE6 = {
 			isa = PBXGroup;
 			children = (
+				494312BE28170EDE0061E9C5 /* README.md */,
+				494312BD28170EA60061E9C5 /* Docs */,
 				499FF3D62812B22E00464DE6 /* Todoey */,
 				499FF3D52812B22E00464DE6 /* Products */,
 				0BF141CF625F5152E5FF992E /* Pods */,
@@ -215,8 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494312C82817156C0061E9C5 /* complete_task.gif in Resources */,
+				494312C52817156C0061E9C5 /* add_task.gif in Resources */,
+				494312C72817156C0061E9C5 /* delete_task.gif in Resources */,
 				499FF3E42812B22F00464DE6 /* LaunchScreen.storyboard in Resources */,
 				499FF3E12812B22F00464DE6 /* Assets.xcassets in Resources */,
+				494312C62817156C0061E9C5 /* search_task.gif in Resources */,
+				494312C02817121C0061E9C5 /* add_category.gif in Resources */,
 				499FF3DF2812B22E00464DE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
