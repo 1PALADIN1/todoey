@@ -25,6 +25,7 @@ class ToDoListViewController: SwipeTableViewController {
         
         tableView.rowHeight = 60
         tableView.separatorStyle = .none
+        searchBar.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
